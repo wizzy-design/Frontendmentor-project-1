@@ -104,7 +104,8 @@ button.nav-btn{
 }
 
 /* Illustrations section */
-.wave{
+.wave,
+.foot-wave{
     width: 100%;
 }
 
@@ -279,6 +280,11 @@ button.nav-btn{
         justify-content: space-between;
     }
 
+    .big-num{
+        font-size: 4.5rem;
+        font-weight: 600;
+    }
+
     .number-1 img,
     .number-2 img{
         width: 35px;
@@ -330,7 +336,41 @@ button.nav-btn{
     .desc2{
         width: 130%;
     }
+
+    .community{
+        width: 130%;
+        margin-bottom: 20rem;
+    }
    
+    .community h1{
+        font-size: 2rem;
+    }
+
+    /* .footer{
+        width: 100vw;
+    } */
+
+    img.foot-wave{
+        width: 130%;
+    }
+
+    .footer-write{
+        width: 130%;
+        flex-direction: column-reverse;
+        gap: 8rem;
+        align-items: center;
+    }
+
+    .suscribe{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input#btn{
+        margin: 1rem 0 0 12rem;
+    }
+
+    
 
 }
 
