@@ -109,8 +109,10 @@ button.nav-btn{
     width: 100%;
 }
 
-.desc{
+.desc,
+.desc2{
     display: flex;
+    padding: 2rem;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
